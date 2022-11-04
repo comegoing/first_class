@@ -1,0 +1,204 @@
+body {
+  background-image: url("../src/img/fengjing.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+}
+.top-bar {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  position: relative;
+}
+.top-bar .logo {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background-image: url("../src/img/Microsoft.png");
+  background-size: auto 40px;
+  background-repeat: no-repeat;
+  left: 150px;
+}
+.top-bar .try-info {
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  left: 350px;
+}
+.top-bar .try-info ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.top-bar .try-info ul li {
+  width: 60px;
+  height: 100%;
+}
+.top-bar .try-info ul li a {
+  margin-top: 5px;
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: silver;
+}
+.top-bar .try-info ul li a:hover {
+  color: white;
+}
+.top-bar .user {
+  position: absolute;
+  height: 100%;
+  width: 240px;
+  left: 800px;
+}
+.top-bar .user ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.top-bar .user ul a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.top-bar .user ul a i {
+  line-height: 40px;
+  font-size: 20px;
+}
+.top-bar .user ul .login {
+  width: 120px;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+.top-bar .user ul .login a {
+  color: #fed;
+}
+.top-bar .user ul .user-photo {
+  border-radius: 50%;
+  width: 40px;
+  height: 100%;
+  background-color: #fed;
+}
+.top-bar .user ul .user-photo i {
+  color: #bbb;
+}
+.top-bar .user ul .setting {
+  width: 40px;
+  height: 100%;
+  margin-left: 40px;
+}
+.top-bar .user ul .setting i {
+  color: #fed;
+}
+.main-body {
+  height: 400px;
+  width: 100%;
+}
+.main-body .body-info {
+  position: relative;
+  width: 500px;
+  height: 40px;
+  margin-top: 120px;
+  margin-left: 350px;
+}
+.main-body .body-info input {
+  position: absolute;
+  display: inline-block;
+  height: 40px;
+  width: 450px;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 20px;
+  border: none;
+}
+.main-body .body-info button {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.main-body .body-info button i {
+  color: #29b;
+  font-size: 20px;
+}
+.main-body .body-info .sing {
+  left: 390px;
+}
+.main-body .body-info .search {
+  left: 430px;
+}
+.info-relative {
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  height: 40px;
+}
+.info-relative ul {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+  left: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-relative ul li {
+  border-radius: 5px;
+  background-color: #222;
+  width: 40px;
+  height: 100%;
+}
+.info-relative ul li a {
+  display: inline-block;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.info-relative ul li a i {
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  height: 100%;
+  width: 40px;
+}
+.info-relative ul .locate {
+  width: 200px;
+  height: 100%;
+}
+.bottom-info {
+  position: fixed;
+  bottom: 0;
+  background-color: #222;
+  width: 100%;
+  height: 50px;
+}
+.bottom-info ul {
+  line-height: 50px;
+  position: absolute;
+  height: 100%;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom-info ul a:hover {
+  text-decoration: underline;
+}
+.bottom-info .micro-info {
+  left: 1000px;
+  position: absolute;
+  height: 100%;
+  width: 150px;
+  line-height: 50px;
+  text-align: center;
+  color: #798;
+}
+/*# sourceMappingURL=./biying.css.map */
